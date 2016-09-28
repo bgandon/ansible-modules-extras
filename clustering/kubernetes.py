@@ -205,7 +205,9 @@ KIND_URL = {
     "resourcequota": "/api/v1/namespaces/{namespace}/resourcequotas",
     "secret": "/api/v1/namespaces/{namespace}/secrets",
     "service": "/api/v1/namespaces/{namespace}/services",
-    "serviceaccount": "/api/v1/namespaces/{namespace}/serviceaccounts"
+    "serviceaccount": "/api/v1/namespaces/{namespace}/serviceaccounts",
+
+    "deployment": "/apis/extensions/v1beta1/namespaces/{namespace}/deployments"
 }
 USER_AGENT = "ansible-k8s-module/0.0.1"
 
